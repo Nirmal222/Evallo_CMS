@@ -1,0 +1,51 @@
+.cmsMainContainer{
+    background-color: rgb(234, 234, 234);
+    height: 100vh;
+}
+.cmsContainer{
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    height: 70vh;
+    gap: 1rem;
+    & > .left{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    &>.right{
+        width: 75%;
+    }
+}
+
+.title{
+    width: 100%;
+    padding: .7rem .5rem;
+    border-radius: 7px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    color: orange;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.controllerMenu{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.controllerItem{
+    border-radius: 7px;
+    cursor: pointer;
+    color: rgb(106, 106, 106);
+    font-weight: 600;
+    padding: .5rem .5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

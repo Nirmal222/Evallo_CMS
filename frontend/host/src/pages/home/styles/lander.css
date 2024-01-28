@@ -1,0 +1,51 @@
+.intro-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro-text {
+    opacity: 0;
+    font-size: large;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+  }
+
+  .title-text{
+    color: #FEA28D !important;
+  }
+  
+  .explore-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1976D2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .explore-button i {
+    margin-right: 8px;
+  }
+  
+  .explore-button:hover {
+    background-color: #FEA28D;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

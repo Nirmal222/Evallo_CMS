@@ -1,0 +1,40 @@
+
+.customFileInput {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+    width: 95%;
+    padding-left: 0;
+}
+
+.customFileInput input[type="file"] {
+    position: absolute;
+    left: -9999px;
+}
+
+.customFileInput>.content {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 7px;
+    border: 2px dashed orange;
+    /* Add a dashed border for styling */
+}
+
+.customFileInput img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.customFileInput span {
+    text-align: center;
+    color: orange !important;
+    margin: 0%;
+    font-size: 14px !important;
+    font-weight: 600;
+}

@@ -1,0 +1,26 @@
+/* SubmissionForm.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .paper {
+    padding: 16px;
+    max-width: 600px;
+  }
+  
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .submitButton {
+    margin-top: 16px;
+  }
+  

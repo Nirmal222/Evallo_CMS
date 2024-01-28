@@ -1,0 +1,66 @@
+.container {
+    border-radius: 10px;
+    height: 100%;
+    padding: 1rem 1rem;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.heading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(82, 82, 82);
+}
+
+.label {
+    font-size: .7rem;
+    font-weight: 500;
+    color: rgb(118, 118, 118);
+}
+
+.dropdowncontainerLeft{
+    /* border: 1px solid green; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+
+    &>div{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
+.dropdowncontainerRight{
+    /* border: 1px solid green; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+    position: relative;
+    &>div{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
+.mainContainer{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.submitButton{
+    width: 100%;
+    height: 12vh;
+    &>button{
+        cursor: pointer;
+        height: 100%;
+        padding: .5rem .5rem;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+}

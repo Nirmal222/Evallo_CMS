@@ -2,3 +2,4 @@ export const SIGNUP_USER = "SIGNUP_USER";
 export const USER_LOGIN = "USER_LOGIN";
 export const PROCESS_LOADING = "PROCESS_LOADING";
 export const PROCESS_ERROR = "PROCESS_ERROR";
+export const CREATE_CONTENT = "CREATE_CONTENT";

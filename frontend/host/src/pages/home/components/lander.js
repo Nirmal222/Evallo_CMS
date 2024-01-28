@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/lander.css";
 import {token} from "../../../utils/constants.js"
+import { Link } from 'react-router-dom';
 const Lander = () => {
     return (
         <div className="intro-container">

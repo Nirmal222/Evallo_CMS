@@ -1,17 +1,16 @@
 const express = require("express");
 const cors = require("cors");
+const PORT = process.env.PORT || 8081;
 const dbConnect = require("./src/config/dbConnect");
 // Routers 
-const userRouter = require('./src/features/users/user.router.js');
-const contentRouter = require("./src/external-adapters/content-submission.js");
-const { PORT } = require("./connection.js");
+const contentRouter = require("./src/features/content/content.router.js");
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use("/user", userRouter);
-app.use("/content", contentRouter);
+
+app.use('/content', contentRouter);
 
 app.get("/", async (req, res) => {
     res.send('Backend is running successfully!')

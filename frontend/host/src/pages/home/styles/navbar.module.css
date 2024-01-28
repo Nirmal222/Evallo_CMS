@@ -1,0 +1,47 @@
+.navbar {
+  margin: 0;
+  width: 100vw;
+  align-items: center;
+  height: fit-content;
+  background: #000046 !important;
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046) !important;
+  background: linear-gradient(to right, #1CB5E0, #000046) !important;
+}
+
+.navbar > div{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoTitle{
+  margin: 0;
+  font-size: 2rem;
+}
+.menuButton {
+  margin-right: 16px;
+}
+
+.menuItem {
+  margin-right: 16px;
+  color: white !important;
+  background-color: transparent;
+  border: none;
+}
+
+.menuItem::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in-out;
+}
+
+.menuItem:hover::after {
+  width: 100%;
+}

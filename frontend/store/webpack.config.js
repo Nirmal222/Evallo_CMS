@@ -2,7 +2,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "https://store-fi9u.onrender.com",
+    publicPath: "https://store-fi9u.onrender.com/",
   },
 
   resolve: {

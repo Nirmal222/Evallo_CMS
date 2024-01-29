@@ -12,7 +12,7 @@ module.exports = (_, argv) => ({
   devServer: {
     port: 3003,
     historyApiFallback: true,
-    allowedHosts: all,
+    allowedHosts: "all",
   },
 
   module: {
